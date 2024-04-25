@@ -3,7 +3,7 @@ title: "useEditor"
 description: "Imperative API for interacting with the editor."
 ---
 
-Your component must be a child of `EditorRoot` to use this hook.
+Your component must be a child of `EditorContent` to use this hook.
 
 ```tsx
 const CustomComponent = ({ open, onOpenChange }: LinkSelectorProps) => {
@@ -11,9 +11,9 @@ const CustomComponent = ({ open, onOpenChange }: LinkSelectorProps) => {
 ...
 }
 
-<EditorRoot>
+<EditorContent>
   <CustomComponent/>
-</EditorRoot>
+</EditorContent>
 ```
 
 ## Props
